@@ -12,7 +12,7 @@ AOS.init();
 // Script JS principal (menu mobile par exemple)
 document.addEventListener("DOMContentLoaded", () => {
   const toggleBtn = document.querySelector("#menu-toggle");
-  const navMenu = document.querySelector("#nav-menu");
+  const navMenu = document.querySelector("#mobile-menu");
 
   toggleBtn?.addEventListener("click", () => {
     navMenu?.classList.toggle("hidden");
